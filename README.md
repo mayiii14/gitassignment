@@ -21,13 +21,8 @@ www.w3schools.com › js_const
 Imagine you're asking JavaScript a yes/no question using an if statement. Sometimes, JavaScript will answer "no" even if you didn't explicitly say "false". These are called "falsy" values. They're not false, but they act like it in if statements and other places where JavaScript expects a true/false answer:
 
 Some common falsy values are:
-false: This one's obvious.
 0 (zero): Nothingness in number.
--0 (negative zero): same as above.
-0n (BigInt zero): A special type of zero.
 "" (empty string): No text at all.
-null: Means "nothing" in a more general sense.
-undefined: Means a variable hasn't been given a value yet.
 NaN (Not a Number): Represents a failed number calculation.
 
 If you use any of these in an if statement, JavaScript will treat it as a "no" (false) and skip the code inside the if block. Anythng else is considered "truthy" and will run the code.
